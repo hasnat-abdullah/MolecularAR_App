@@ -8,6 +8,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using UnityEngine.UI;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -17,6 +18,10 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+    public Transform TextTargetName;
+    public Transform TextDescription;
+    public Transform PanelDescription;
+
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -118,6 +123,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+        
+
+        //Evertime the target lost / no target found it will show “???” on the TextTargetName. Button, Description and Panel will invicible (inactive)
+	     TextTargetName.GetComponent<Text> ().text = "???";
+            TextDescription.gameObject.SetActive(false);
+            PanelDescription.gameObject.SetActive(false);
+
     }
 
     #endregion // PROTECTED_METHODS
