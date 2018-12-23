@@ -26,3 +26,5 @@ Section: 04
 26-November 2018: Uploaded 4 3D Molecular models
 
 02-December 2018: Team Meeting
+
+23-December 2018: Team meeting on project finalization and testing
