@@ -3,6 +3,43 @@ guid: 332f6679f1f775c4fa655c93fe599e51
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Ball_Fluorine_001
+    100002: Ball_Fluorine_002
+    100004: Ball_Fluorine_003
+    100006: Ball_Fluorine_004
+    100008: Ball_Xenon_001
+    100010: Sticks
+    100012: //RootNode
+    400000: Ball_Fluorine_001
+    400002: Ball_Fluorine_002
+    400004: Ball_Fluorine_003
+    400006: Ball_Fluorine_004
+    400008: Ball_Xenon_001
+    400010: Sticks
+    400012: //RootNode
+    2100000: Fluorine
+    2100002: Xenon
+    2100004: Stick_002
+    2300000: Ball_Fluorine_001
+    2300002: Ball_Fluorine_002
+    2300004: Ball_Fluorine_003
+    2300006: Ball_Fluorine_004
+    2300008: Ball_Xenon_001
+    2300010: Sticks
+    3300000: Ball_Fluorine_001
+    3300002: Ball_Fluorine_002
+    3300004: Ball_Fluorine_003
+    3300006: Ball_Fluorine_004
+    3300008: Ball_Xenon_001
+    3300010: Sticks
+    4300000: Ball_Fluorine_004
+    4300002: Ball_Fluorine_003
+    4300004: Ball_Fluorine_002
+    4300006: Ball_Fluorine_001
+    4300008: Ball_Xenon_001
+    4300010: Sticks
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -56,7 +93,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
