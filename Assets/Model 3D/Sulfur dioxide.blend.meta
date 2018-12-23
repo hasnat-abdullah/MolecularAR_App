@@ -1,32 +1,32 @@
 fileFormatVersion: 2
-guid: bcd90fad8de1d44aabdab558201ecc4a
+guid: bd2af801a58141c49858c5f9d7720f6d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Ball_Hydrogen_001
-    100002: Ball_Hydrogen_002
-    100004: Ball_Oxygen_001
+    100000: Ball_Oxygen_001
+    100002: Ball_Oxygen_002
+    100004: Ball_Sulfur_001
     100006: Sticks
     100008: //RootNode
-    400000: Ball_Hydrogen_001
-    400002: Ball_Hydrogen_002
-    400004: Ball_Oxygen_001
+    400000: Ball_Oxygen_001
+    400002: Ball_Oxygen_002
+    400004: Ball_Sulfur_001
     400006: Sticks
     400008: //RootNode
-    2100000: Oxygen
-    2100002: Hydrogen
-    2100004: Stick
-    2300000: Ball_Hydrogen_001
-    2300002: Ball_Hydrogen_002
-    2300004: Ball_Oxygen_001
+    2100000: Oxygen_004
+    2100002: Sulfur_002
+    2100004: Stick_007
+    2300000: Ball_Oxygen_001
+    2300002: Ball_Oxygen_002
+    2300004: Ball_Sulfur_001
     2300006: Sticks
-    3300000: Ball_Hydrogen_001
-    3300002: Ball_Hydrogen_002
-    3300004: Ball_Oxygen_001
+    3300000: Ball_Oxygen_001
+    3300002: Ball_Oxygen_002
+    3300004: Ball_Sulfur_001
     3300006: Sticks
-    4300000: Ball_Oxygen_001
-    4300002: Ball_Hydrogen_002
-    4300004: Ball_Hydrogen_001
+    4300000: Ball_Oxygen_002
+    4300002: Ball_Oxygen_001
+    4300004: Ball_Sulfur_001
     4300006: Sticks
     7400000: Default Take
     9500000: //RootNode

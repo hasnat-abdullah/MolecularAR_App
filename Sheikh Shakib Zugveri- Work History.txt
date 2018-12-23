@@ -24,3 +24,5 @@ Section: 04
 24-November 2018: Made 4 3D Molecular models
 
 26-November 2018: Uploaded 4 3D Molecular models
+
+02-December 2018: Team Meeting
