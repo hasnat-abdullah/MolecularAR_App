@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: a9dd2b03b1cb24eacb227dd517d73800
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ball_Carbon_001
+    100004: Ball_Carbon_002
+    100006: Ball_Carbon_003
+    100008: Ball_Carbon_004
+    100010: Ball_Carbon_005
+    100012: Ball_Carbon_006
+    100014: Ball_Hydrogen_001
+    100016: Ball_Hydrogen_002
+    100018: Ball_Hydrogen_003
+    100020: Ball_Nitrogen_001
+    100022: Ball_Nitrogen_002
+    100024: Ball_Nitrogen_003
+    100026: Ball_Oxygen_001
+    100028: Ball_Oxygen_002
+    100030: Ball_Oxygen_003
+    100032: Ball_Oxygen_004
+    100034: Ball_Oxygen_005
+    100036: Ball_Oxygen_006
+    100038: Ball_Oxygen_007
+    100040: Sticks
+    400000: //RootNode
+    400002: Ball_Carbon_001
+    400004: Ball_Carbon_002
+    400006: Ball_Carbon_003
+    400008: Ball_Carbon_004
+    400010: Ball_Carbon_005
+    400012: Ball_Carbon_006
+    400014: Ball_Hydrogen_001
+    400016: Ball_Hydrogen_002
+    400018: Ball_Hydrogen_003
+    400020: Ball_Nitrogen_001
+    400022: Ball_Nitrogen_002
+    400024: Ball_Nitrogen_003
+    400026: Ball_Oxygen_001
+    400028: Ball_Oxygen_002
+    400030: Ball_Oxygen_003
+    400032: Ball_Oxygen_004
+    400034: Ball_Oxygen_005
+    400036: Ball_Oxygen_006
+    400038: Ball_Oxygen_007
+    400040: Sticks
+    2100000: Carbon
+    2100002: Nitrogen_001
+    2100004: Oxygen
+    2100006: Hydrogen_001
+    2100008: Stick_001
+    2300000: Ball_Carbon_001
+    2300002: Ball_Carbon_002
+    2300004: Ball_Carbon_003
+    2300006: Ball_Carbon_004
+    2300008: Ball_Carbon_005
+    2300010: Ball_Carbon_006
+    2300012: Ball_Hydrogen_001
+    2300014: Ball_Hydrogen_002
+    2300016: Ball_Hydrogen_003
+    2300018: Ball_Nitrogen_001
+    2300020: Ball_Nitrogen_002
+    2300022: Ball_Nitrogen_003
+    2300024: Ball_Oxygen_001
+    2300026: Ball_Oxygen_002
+    2300028: Ball_Oxygen_003
+    2300030: Ball_Oxygen_004
+    2300032: Ball_Oxygen_005
+    2300034: Ball_Oxygen_006
+    2300036: Ball_Oxygen_007
+    2300038: Sticks
+    3300000: Ball_Carbon_001
+    3300002: Ball_Carbon_002
+    3300004: Ball_Carbon_003
+    3300006: Ball_Carbon_004
+    3300008: Ball_Carbon_005
+    3300010: Ball_Carbon_006
+    3300012: Ball_Hydrogen_001
+    3300014: Ball_Hydrogen_002
+    3300016: Ball_Hydrogen_003
+    3300018: Ball_Nitrogen_001
+    3300020: Ball_Nitrogen_002
+    3300022: Ball_Nitrogen_003
+    3300024: Ball_Oxygen_001
+    3300026: Ball_Oxygen_002
+    3300028: Ball_Oxygen_003
+    3300030: Ball_Oxygen_004
+    3300032: Ball_Oxygen_005
+    3300034: Ball_Oxygen_006
+    3300036: Ball_Oxygen_007
+    3300038: Sticks
+    4300000: Ball_Carbon_006
+    4300002: Ball_Carbon_005
+    4300004: Ball_Carbon_004
+    4300006: Ball_Carbon_003
+    4300008: Ball_Carbon_002
+    4300010: Ball_Carbon_001
+    4300012: Ball_Nitrogen_003
+    4300014: Ball_Nitrogen_002
+    4300016: Ball_Nitrogen_001
+    4300018: Ball_Oxygen_007
+    4300020: Ball_Oxygen_006
+    4300022: Ball_Oxygen_005
+    4300024: Ball_Oxygen_004
+    4300026: Ball_Oxygen_003
+    4300028: Ball_Oxygen_002
+    4300030: Ball_Oxygen_001
+    4300032: Ball_Hydrogen_003
+    4300034: Ball_Hydrogen_002
+    4300036: Ball_Hydrogen_001
+    4300038: Sticks
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
