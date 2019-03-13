@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AYBGx8X/////AAABmcFy29/yoEWRoA8fDpr4SLwVT/aRhsHsr/woWy5Lg4Y8uekTxS8VXe3bXZw1AnPkcrHEr6DDvc00EZ55XK8DjUhO7AarFPvEU8ch9KLDounEi3cAAPPwdXdR+ZQqD+vTUDK4ixotp5DKiRg02SsjudFtm/DgU8a4efbm1OZHRiixU3KkjGCPuZFUl+X7DB4RXL6sJJ9CtkXUD+Zl9Kp/Q2i4KdcDNF/9uqPcM3+mKl3U17ji1MwqI1/+83ONYRyzbS5gTQDk7Y3HK/eweT/GGSomG79tkc79xeMRuEeTvFcN8b8zzgu4qxUYUHJ0LQtVTDo2E+GMVyWRclqGPyvTjdtDoxZhwrA+Nsj/81mLonb9
-    ufoLicenseKey: QVNZamtZci8vLy8vQUFBQUtMeWpEQ2JIbGtRMnBzaFlnWm85OWZFcEZPWEhDRng4NGx0cm1WNUk4ck1reUFGN2FGc3dSZEIrNWN1UjBnVndXdkt5ZzNXVjB0VHpraVhIdGhPaGNYOUUxRWdXWkZjZ3RCbEhZejJJZkg1UGcwNUZSSjdRd09QOUhJRGppN2hrTStjbmdZZmp6bFFaVEhMK0NQaEZpZnFHRG9Kd3d5VmxCbkJaVEtwMnp4TnZLRSsvV3NpdnYzR0YwL3hNSTZPMzM0VE1wOTlYWSt2bGZVVnFjZHVCcEYweHlzb3diaXU1YTl1T1RRUnFZaEczalp0YzRTcUEyWDh0MjdPL3NkNlJodm5WclI0bUh1UTlhekZBWnVKdFJweFlmMHlKMVI3ZjFaSDZTOGNraGpQVSs1ZFpLVTZGV2FRVnAyVVA0VXFiWFVFZk5YMEVaK3o4MmcrYm5KeEJ1R3ppSDM4Z0p6WHg3b2ZncTd2ampBOVY=
+    ufoLicenseKey: QWJiMmZYVC8vLy8vQUFBQUtNQlJ6MXNRZ0VYZnNZaWJmWjcwUmkwRXMyUS9nL3hneGtYSktxQW4zbWVIallQcWRRWE9NUFJEU1ZxdGZpWGh5UHdTVElSRUZOT2dRbXRCQlRsd2ZZN2NOSUZ5SE9SK1dHSHhIRlYxTExjZS8vWFpTMm9aZWpuUlhxb0lnRUcramI0aHpLSGx3SXBPQ0F0Q3hubFI3dURlazZ1cmdrK2puQU5VR1RQanlCK2VwMGgwOHN6WGZGOTBtUmNFSHpwa0pUS0RaZi9LSmgzTDR3U2oxUlg5dVlZYWg2VXRnd1B2VWhxZTJCWFJsc1JPWGtReFJ6ZnlHMnd3TVVJSEpNY1QyNElRN1lCM0hGS3NBeXJycVFCTEVzb0NoZmN0UDFmKzJFYXdTQWpxVlErd3ZtMlFoVEhpQ01jUDJpaEU2M2ZsWUhKQlAram1QTG8vcytHZ3JrWCtFdGN6VE5hOFBOYzNlVEtUbWZDVlpKcWw=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -49,17 +49,17 @@ MonoBehaviour:
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
-    posePrediction: 0
+    trackingMode: 0
+    posePrediction: 1
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
+    fusionMode: 5
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0

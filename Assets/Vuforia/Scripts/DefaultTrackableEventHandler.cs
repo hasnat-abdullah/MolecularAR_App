@@ -21,6 +21,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     public Transform TextTargetName;
     public Transform TextDescription;
     public Transform PanelDescription;
+    public Transform TestInstruction;
+    public Transform PanelDev;
 
     #region PROTECTED_MEMBER_VARIABLES
 
@@ -103,6 +105,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+        //Default Lone Pair, Name & Angle hide
+        GameObject.Find ("LonePair").GetComponent<Renderer>().enabled = false;
+        GameObject.Find ("Name").GetComponent<Renderer>().enabled = false;
+        GameObject.Find ("Angle").GetComponent<Renderer>().enabled = false;
     }
 
 
@@ -127,8 +134,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         //Evertime the target lost / no target found it will show “???” on the TextTargetName. Button, Description and Panel will invicible (inactive)
 	     TextTargetName.GetComponent<Text> ().text = "???";
-            TextDescription.gameObject.SetActive(false);
-            PanelDescription.gameObject.SetActive(false);
+         TextDescription.GetComponent<Text> ().text = "Description about molecular will visiable here";
+         PanelDescription.gameObject.SetActive(false);
+         PanelDev.gameObject.SetActive(false);
+         TestInstruction.gameObject.SetActive(true);
 
     }
 
